@@ -1,0 +1,107 @@
+/** {
+    border: 0.1px dashed black;
+}*/
+
+body {
+    background-color: #1a1a1a;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#header {
+    font-size: 24px;
+    font-family: Verdana, serif;
+}
+#header img {
+    height: 20%;
+    width: 20%;
+}
+#center {
+    position: relative;
+    background-color: #1a1a1a;
+    margin-top: 10px;
+    border-radius: 15px;
+    height: 520px;
+    width: 400px;
+
+}
+#text {
+    margin-top: 5px;
+}
+#timer {
+    position: absolute;
+    border-radius: 50%;
+    background-color: #cccccc;
+    height: 150px;
+    width: 250px;
+    border: 4px solid green;
+    margin-top: 110px;
+    margin-left: 75px;
+    color: black;
+    font-size: 45px;
+    font-family: Verdana, serif;
+    padding-top: 100px;
+}
+#control select {
+    color: black;
+    margin-top: 20px;
+    display: inline;
+}
+.btn {
+    color: black;
+}
+#minContainer {
+    float: left;
+    padding-left: 10px;
+    font-size: 16px;
+}
+#secContainer {
+    float: left;
+    padding-left: 10px;
+    clear: both;
+    font-size: 16px;
+}
+
+
+
+#set {
+    height: 40px;
+    float: left;
+    margin-left: 10px;
+    margin-top: -10px;
+}
+#alarm {
+    height: 40px;
+    float: left;
+    margin-left: 10px;
+    margin-top: -10px;
+}
+#reset {
+    height: 40px;
+    float: left;
+    margin-left: 40px;
+    margin-top: -10px;
+}
+#playPause {
+    float: right;
+    width: 50px;
+    height: 40px;
+    margin-top: -10px;
+}
+#playIcon {
+    width: 100%;
+    height: 100%;
+    padding-right: 10px;
+}
+#minutes {
+   margin-left: 5px;
+}
+#seconds {
+    margin-left: 5px;
+}
+#youtubeContainer {
+    display: none;
+}
+
